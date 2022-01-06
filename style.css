@@ -50,15 +50,57 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-.box{
-    box-shadow: 10px 10px 40px ;
-    margin-left: 30px;
-    width: 30%;
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(380px - 30px);
     border-radius: 20px;
-    padding-left: 3%;
-    background-color: rgb(233, 228, 220);
+    padding-left: 1%;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
     
+}
+.box1{
+    background-color: rgb(233, 228, 220);
+}
+.box2{
+    background-color: rgb(236, 240, 248);
+}
+.box3{
+    background-color: rgb(252, 252, 215);
 }
 .box img{
     width: 40%;
+}
+.para{
+    font-size: 14px;
+}
+.head1{
+    margin-top: 180px;
+    font-weight: 90px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    padding-right:1000px;
+    margin-left: 60px;
+}
+.div img{
+    margin-top: 100px;
+       width: 400px;
+       margin-left: 180px;
+}
+.para2{
+    margin-left: 60px;
+    padding-right: 50%;
+}
+.button2{
+    margin-left:60px ;
 }
